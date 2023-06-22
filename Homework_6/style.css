@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    padding-top: 40px;
+}
+
+.header_links{
+    text-decoration-line: none;
+}
+
+.content_block{
+    margin-top: 143px;
+}
+.title{
+    margin-bottom: 17px;
+}
+
+.content_buttons{
+    margin-top: 15px;
+}
+
+.footer{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
