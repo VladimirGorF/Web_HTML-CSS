@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+
+.nav_hrefs{
+    color: cornflowerblue;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.sub_title{
+    color: #222222;
+    font-size: 28;
+    line-height: 36;
+    font-weight: bold;
+}
+
+.text{
+    font-style: normal;
+    font-weight: 300;
+    font-style: 18px;
+    line-height: 30;
+    color: #7D7987;
+}
+
+.sub2_title{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-style: 36px;
+    line-height: 80;
+}
