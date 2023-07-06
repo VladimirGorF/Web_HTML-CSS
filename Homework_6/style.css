@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    gap: 859px;
+}
+
+.header_left {
+    display: flex;
+    gap: 41px;
+}
+
+.image_header1 {
+    width: 44px;
+    height: 38px;
+    flex-shrink: 0;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.image_header2 {
+    padding-top: 28.21px;
+    padding-bottom: 20px;
+}
+
+.image_header3 {
+    width: 158.996px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #E8E8E8;
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+
+.top_content {
+    display: flex;
+    align-items: center;
+    gap: 63.42px;
+    background-color: #F1E4E6;
+}
+
+.left_img {
+    width: 800.58px;
+    height: 764px;
+    flex-shrink: 0;
+}
+
+.rectangle {
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+
+
+.right_content {
+    display: flex;
+    gap: 28px;
+}
+
+.top_title {
+    color: #222;
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.top_subtitle {
+    color: #222;
+    font-size: 31px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* middle__________________ */
+
+.middle {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+
+.mid_item1 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle11.svg);
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.mid_item2 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle22.svg);
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.mid_item3 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle33.svg);
+    width: 360px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.mid_item4 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle44.svg);
+    min-width: 360px;
+    height: 260px;
+    flex-shrink: 0;
+    grid-column: span 3;
+}
+
+.mid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_title {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mid_title_tit {
+    color: #F16D7F;
+    font-size: 24px;
+}
+
+
+
+.fet_tit {
+    display: flex;
+    justify-content: center;
+    color: #222;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+
+.fet_subtit {
+    display: flex;
+    justify-content: center;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.feture_box {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.feture_items{
+    background-color: #F8F8F8;
+}
+.fet_title {
+    color: #000;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item2_img_box {
+    display: flex;
+    justify-content: center;
+    background-color: #F7E4E2;
+    padding-top: 9px;
+    padding-bottom: 11px;
+
+}
+
+.fet_title {
+    margin-top: 24px;
+    color: #000;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fet_text {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feture_button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F26376;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    width: 212px;
+    height: 48px;
+    border: 1px solid;
+    border-color: #FF6A6A;
+}
