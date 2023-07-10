@@ -45,7 +45,7 @@
     height: 52px;
     display: flex;
     align-items: center;
-    position: relative;
+   
 }
 
 .five {
@@ -68,10 +68,6 @@
     top: 5px;
     z-index: 2;
 }
-
-
-
-
 
 .top_content {
     display: flex;
