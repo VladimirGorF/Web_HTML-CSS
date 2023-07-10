@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    gap: 40%;
+    max-height: 74px;
+}
+
+.header_left {
+    display: flex;
+    gap: 41px;
+}
+
+.image_header1 {
+    width: 44px;
+    height: 38px;
+    flex-shrink: 0;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.image_header2 {
+    padding-top: 28.21px;
+    padding-bottom: 20px;
+}
+
+.header_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile {
+    margin-right: 17px;
+}
+
+.basket_box {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    ;
+    background-color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    z-index: 2;
+}
+
+
+
+
+
+.top_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1E4E6;
+    gap: 0px;
+}
+
+.left_img_man {
+    max-width: 386px;
+}
+
+.rectangle {
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.right_content {
+    display: flex;
+    gap: 16px;
+}
+
+.top_title {
+    color: #222;
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.top_subtitle {
+    color: #222;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* middle__________________ */
+
+.middle {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 231.973px);
+    justify-content: center;
+    gap: 19.9px;
+    margin-bottom: 96px;
+}
+
+.mid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid_item1, .mid_item2, .mid_item3 {
+    width: 231.973px;
+    height: 167.617px;
+    flex-shrink: 0;
+}
+
+.mid_item1 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle11.svg);
+}
+
+.mid_item2 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle22.svg);
+}
+
+.mid_item3 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle33.svg);
+}
+
+.mid_item4 {
+    background: linear-gradient(135deg, #211616B2, #211616B2), url(img/Rectangle44.svg);
+    min-height: 116px;
+    grid-column: span 3;
+}
+
+
+
+.mid_title {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mid_title_tit {
+    color: #F16D7F;
+    font-size: 24px;
+}
+
+/* feture***************** */
+
+.fet_tit {
+    display: flex;
+    justify-content: center;
+    color: #222;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+
+.fet_subtit {
+    display: flex;
+    justify-content: center;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+}
+
+.feture_box {
+    display: grid;
+    grid-template-columns: repeat(2, 360px);
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+
+
+.feture_items {
+    background-color: #F8F8F8;
+}
+
+.fet_item_inform {
+    padding-left: 16.46px;
+    padding-right: 28.8px;
+}
+
+.fet_title {
+    color: #000;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item2_img_box {
+    display: flex;
+    justify-content: center;
+    background-color: #3A3838DB;
+    min-height: 420px;
+    position: relative;
+
+}
+
+.image_filter {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #3A3838DB;
+    opacity: 0.9;
+}
+
+.fet_item2_img2_inform {
+    position: absolute;
+    left: 110px;
+    top: 175px;
+    display: flex;
+    gap: 11.04px;
+    border: 1px solid white;
+    padding: 11px 13px;
+}
+
+.add {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fet_title {
+    margin-top: 24px;
+    color: #000;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fet_text {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.feture_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F26376;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    width: 212px;
+    height: 48px;
+    border: 1px solid;
+    border-color: #FF6A6A;
+}
+
+
+@media(max-width: 767px) and (min-width:320px) {
+  
+    .left_img_man,.profile, .basket_box  {
+       display: none;
+    }
+    
+    .top_content{
+        min-height: 363px;
+    }
+
+     .middle {
+        display: grid;
+        grid-template-columns: 343px;
+        justify-content: center;
+        gap: 32px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mid_item1, .mid_item2, .mid_item3 {
+        width: 343px;
+        height: 247px;
+        flex-shrink: 0;
+    }
+
+     .mid_item4 {
+        max-height: 111px;
+        width: 343px;
+        
+    } 
+
+    .feture_box {
+        grid-template-columns:  358px;
+     
+    }  
+}
