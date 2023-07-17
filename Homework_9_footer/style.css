@@ -37,11 +37,12 @@
     padding: 0;
 }
 
-header {
+.header {
     display: flex;
     justify-content: space-around;
     background-color: #222222;
     gap: 40%;
+    
 }
 
 .header_left {
@@ -704,7 +705,7 @@ header {
 
 @media(max-width: 767px) and (min-width:320px) {
 
-    header {
+    .header {
         height: 74px;
     }
 
@@ -755,8 +756,7 @@ header {
 
     .mid_item4 {
         max-height: 111px;
-        width: 343px;
-
+        min-width: 343px;
     }
 
     .feture_box {
