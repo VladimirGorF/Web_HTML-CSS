@@ -709,9 +709,10 @@
     .header {
         height: 74px;
         position: fixed;
-        margin-top: 90vh;
+        margin-top: 93vh;
         width: 100vw;
         z-index: 2;
+        align-items: center;
     }
 
     .right_content {
@@ -834,9 +835,10 @@
     .header {
         height: 74px;
         position: fixed;
-        margin-top: 90vh;
+        margin-top: 93vh;
         width: 100vw;
         z-index: 2;
+        align-items: center;
     }
 
     .right_content {
